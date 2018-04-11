@@ -19,9 +19,9 @@ Or install it yourself as:
 ## Usage
 
 ```shell
-$ clchat happy
+$ clchat.answer happy
 (∩´∀｀)∩
 
-$ clchat tired
+$ clchat.answer tired
 0(:3　)～
 ```

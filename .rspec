@@ -1,3 +1,15 @@
 --format documentation
 --color
 --require spec_helper
+
+describe Clchat do
+  it 'has a version number' do
+  expect(Clchat:Version).not_to be nil
+  end
+
+  describe '#answer' do
+    it 'returns "(｡・∀・｡)"' do
+    expect(Clchat.answer).to eq('(｡・∀・｡)')
+    end
+  end
+end  
