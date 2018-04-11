@@ -1,0 +1,15 @@
+# coding: utf-8
+
+CC = "gcc"
+
+desc "the sum from 1 to 100"
+
+task :default => "sum"
+
+file "sum" => "sum.o" do
+  sh "#{CC} -o sum sum.o"
+end
+
+file "sum.o" => "sum.c" do
+  sh "#{CC} -c sum.c"
+end
