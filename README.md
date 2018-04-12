@@ -19,9 +19,13 @@ Or install it yourself as:
 ## Usage
 
 ```shell
-$ clchat.answer happy
+$irb
+>> require 'clchat'
+=> true
+
+>> Clchat.answer("happy")
 (∩´∀｀)∩
 
-$ clchat.answer tired
+>> Clchat.answer("tired")
 0(:3　)～
 ```
