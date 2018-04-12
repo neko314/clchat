@@ -8,6 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Clchat::VERSION
   spec.authors       = ["Kaneko Keiko"]
   spec.email         = ["keiko.cda@gmail.com"]
+  spec.cert_chain    = ['certs/neko314.pem']
+  spec.signing_key   = File.expand_path("~/.ssh/gem-private_key.pem")
+
 
   spec.summary       = 'This gem give an emoticon to you as your feeling'
   spec.description   = 'This gem give you an emoticon as your feeling is'

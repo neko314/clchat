@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'clchat'
+puts Clchat.answer(ARGV[0])

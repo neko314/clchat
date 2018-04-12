@@ -19,13 +19,11 @@ Or install it yourself as:
 ## Usage
 
 ```shell
-$irb
->> require 'clchat'
-=> true
 
->> Clchat.answer("happy")
+$ ruby -Ilib ./bin/clchat happy
 (∩´∀｀)∩
 
->> Clchat.answer("tired")
+$ ruby -Ilib ./bin/clchat tired
 0(:3　)～
+
 ```
