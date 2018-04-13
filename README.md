@@ -1,5 +1,10 @@
 # Clchat
 
+ Clchat means 'Commandline chat'.
+ Say how you feel now on the commandline, and this gem will give you an emoticon. It looks like a chatting!
+ It's not Useful but beloved like your friend.
+ The emoticons are japanese style.
+
 ## Installation
 
 Add this line to your application's Gemfile:
